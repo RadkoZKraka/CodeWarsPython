@@ -29,6 +29,9 @@ def print_hi(name):
     print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
 
 
+def hex_to_dec(s):
+    return bytes.fromhex(s).decode('utf-8')
+
 la_liga_goals = 43
 champions_league_goals = 10
 copa_del_rey_goals = 5
